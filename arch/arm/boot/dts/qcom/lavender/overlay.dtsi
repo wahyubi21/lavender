@@ -418,6 +418,9 @@
 	status = "disabled";
 };
 
+/* Disable SMP2P Remote Debug for production */
+#include "../msm-rdbg-disable.dtsi"
+
 /* sdm660-pinctrl */
 &tlmm {
 	msm_gpio_20:msm_gpio_20 {
